@@ -1,0 +1,30 @@
+localhost/phpmyadmin
+classe do PHP que gerencia BD se chama 
+    $pdo = new PDO('mysql:host=localhost;dbname=nomedadatabasequecriamos','loginphpmyadminqueé root','senha');
+
+inserir dados atraves de formularios
+if(isset($_POST['acao'])){
+    $Nome = $_POST['Nome'];
+    $Sobrenome = $_POST['Sobrenome'];
+    $Momento_registro = $_POST['Momento_registro'];
+
+
+    $sql = $pdo->prepare("INSERT INTO `bdephp` VALUES (null,?,?,?)");
+
+    $sql->execute();
+}
+
+UPDATE e Condições nas queries
+
+Query é um comando que colocamos para executar no bando de dados, que são
+INSERIR 
+ATUALIZAR
+DELETAR
+SELECIONAR TUDO
+
+
+DELETE COM PDO
+
+
+
+

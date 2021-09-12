@@ -1,0 +1,22 @@
+ORIENTAÇÃO A OBJETOS NO PHP OU OOP
+
+define();
+$variavel();
+func();
+
+OOP
+
+Pessoa{
+    nome
+    idade
+    peso
+
+    crescer()
+    comer()
+}
+
+*** as variaveis na OO chamamos de atributos
+**** funções são métodos na OO
+
+
+Public, private e static
